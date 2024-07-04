@@ -22,8 +22,20 @@ const add = (a,b)=>{
 
 const mul = (a,b)=> a*b;
 
+const person = {
+    name :"shiran",
+    age :27,
+    greet(){
+        console.log("Hi I am "+this.name);
+    }
+}
+
+person.greet();
 
 
-console.log(summerizeUser3(name,age,hasHobbits));
-console.log(add(2,1));
-console.log(mul(2,1));
+
+
+
+// console.log(summerizeUser3(name,age,hasHobbits));
+// console.log(add(2,1));
+// console.log(mul(2,1));
